@@ -458,11 +458,11 @@
     </hop>
     <hop>
       <from>Config - TextFileInput-Fields</from>
-      <to>metadata git sample</to>
+      <to>metadata git sample2</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>metadata git sample</from>
+      <from>metadata git sample2</from>
       <to>ETL metadata injection</to>
       <enabled>Y</enabled>
     </hop>
@@ -1242,7 +1242,7 @@
     </GUI>
   </step>
   <step>
-    <name>metadata git sample</name>
+    <name>metadata git sample2</name>
     <type>WriteToLog</type>
     <description/>
     <distribute>Y</distribute>
